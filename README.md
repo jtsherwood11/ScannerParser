@@ -7,8 +7,11 @@ This is a scanner/parser for a compilers class using Flex (Lex), Yacc, and C.
 To Build:   cd [folder] && make
 
 USAGE:
-    ./sr <filename>  
+
+./sr [filename]  
 
 Example (using test file)
-    ./sr test.sr
     
+./sr test.sr
+
+
