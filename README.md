@@ -5,7 +5,7 @@ PROJECT #2: PARSING Program Translation Tech. Spring 2015
 This is a scanner/parser for a compilers class using Flex (Lex), Yacc, and C. 
 
 To Build:   cd [folder] && make
-To Rebuild: make clean && make
+
 USAGE:
 ./sr <filename>  
 
