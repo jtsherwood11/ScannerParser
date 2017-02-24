@@ -1,0 +1,75 @@
+0 : <illegal>
+1 : a
+2 : b
+3 : c
+4 : y
+5 : C
+6 : d
+7 : e
+
+var
+  Ident a
+  Ident b
+  int
+const
+  Ident c
+  int
+  IntConst 45
+const
+  Ident y
+  bool
+  =
+    Ident b
+    Ident a
+var
+  Ident C
+  bool
+if
+  ->
+    >=
+      Ident a
+      IntConst 5
+    :=
+      Ident C
+      Ident y
+  else
+    =
+      Ident C
+      not
+        Ident y
+var
+  Ident d
+  bool
+var
+  Ident e
+  int
+do
+  ->
+    >=
+      Ident a
+      Ident b
+    :=
+      Ident d
+      !=
+        Ident a
+        Ident c
+    :=
+      Ident e
+      +
+        Ident a
+        Ident c
+  ->
+    Ident d
+    :=
+      Ident e
+      -
+        Ident e
+        IntConst 12
+:=
+  Ident e
+  +
+    -
+      Ident a
+      Ident b
+    Ident e
+

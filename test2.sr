@@ -1,0 +1,16 @@
+resource main
+var a,b:int;
+const c:int:=45;
+const y : bool := b = a;
+var C:bool;
+if a>=5 -> C
+:= y; [] else -> C = not y;
+fi;
+var d:bool;var e:int;
+do 
+a>=b -> d := a!=c; e := a+c;
+[] d -> e := e - 12;
+od;
+e := a-b+e;
+end
+
